@@ -8,27 +8,27 @@ setTimeout(function() {
 
     var textContainer = document.getElementById('container5');
     textContainer.style.left = '0px';
-}, 1000);
+}, 700);
 
   //Header animation
 setTimeout(function() {
     var header = document.getElementById('heading');
     header.style.top = '0px';
-}, 1500);
+}, 1200);
 
   //site banner animation part 1
 setTimeout(function(){
     var mainHeader = document.getElementById('main-header');
     
     mainHeader.style.top = '0';
-}, 2500);
+}, 1500);
 
   //site banner animation part 2
 setTimeout(function(){
     var subHeader = document.getElementById('sub-heading');
     
     subHeader.style.top = '0';
-}, 3200);
+}, 2000);
 
   //toggle nav-menu 
 function toggleMenu(){
