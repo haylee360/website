@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My TileServer GL Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css">
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 100vh;"></div>
+    <script>
+        var map = new maplibregl.Map({
+            container: 'map',
+            style: "http://localhost:8080/styles/bright/style.json",
+            center: [-98, 38], // Adjust to your data bounds
+            zoom: 4
+        });
+    </script>
+</body>
+</html>
